@@ -1,0 +1,161 @@
+html, body{
+    margin: 0 auto;
+    height: 100%;
+     font-family:'Barlow Semi Condensed', sans-serif;
+    scroll-behavior:smooth;
+    
+}
+.top{
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 300px;
+    padding: 10px;
+    background: #09071c;
+    color: white;
+    width: 100%;
+}
+.menuiterm ul {
+list-style: none;
+text-align: center;
+margin-top: -40px;
+padding-bottom: 15px
+
+}
+.menuiterm ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+.menuiterm ul li {
+    display: inline-grid;
+    margin: 10px;
+
+}
+.intro h1{
+    font-size: 50px;
+}
+.intro p{
+    font-size: 20px;
+}
+
+.logo{
+    padding: 10px 25px;
+}
+.button {
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    border: 20px solid #CE9510;
+    background: #CE9510;
+    color:#CE9510;
+}
+.intro button{
+    padding: 15px 30px;
+    background: #CE9510;
+}
+.intro img{
+    margin-left: -60px;
+}
+.intro{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/kuhle.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    background-position: center;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+}
+
+.header{
+    width: 100px;
+}
+
+.logo{
+    padding: 10px 25px;
+}
+.grid-container{
+    display: grid;
+    grid-column-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+}
+.item{
+    border: 1px solid #cdcdcd;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+}
+hr{
+    border: 0;
+    width: 50px;
+}
+.Services h2{
+text-align: center;
+font-size: 40px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-column-gap:20px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+
+   
+}
+
+.Services h2{
+    text-align: center;
+    font-size: 40px;
+}
+.grid-container p{
+    color:#cdcdcd;
+}
+#magg {
+    width:20px;
+}
+.Mission{
+    padding: 20px;
+    width:100%;
+}
+.Benefits{
+    background-image: url("../images/lot.jpeg");
+}
+.Benefitslist li {
+    list-style: none;
+}
+.Why h2{
+    font-size: 35px;
+    display: grid;
+   grid-column-gap:20px;
+   grid-template-columns: auto auto auto;
+   padding: 10px;
+}
+.Why h5{
+font-size:25px;
+}
+
+.Why{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/magg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+
+}
+
+hr {
+    width: 20px;
+}
+
+.container-vid{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.video{
+    text-align: center;
+    padding: 50px;
+}
